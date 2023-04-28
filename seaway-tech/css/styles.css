@@ -1,0 +1,111 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+/* Font used: font-family: 'Fjalla One', sans-serif;
+ */
+
+img {
+	max-width: 100%;
+}
+
+body {background-color: #008e66;}
+nav {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	border-bottom: solid thick black;
+	background-color: white;
+}
+nav ul {
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	padding: 2%;
+}
+nav li a {
+	font-size: 2em;
+	text-decoration: none;
+	font-family: 'Fjalla One', sans-serif;
+	color: #00568c;
+}
+
+header {
+	text-align: center;
+	font-size: 3em;
+	padding: 10% 0;
+	font-family: 'Fjalla One', sans-serif;
+	color: #ccc;
+	background-color: #00568c;;
+}
+
+main {
+	display: block;
+	margin: 0 auto;
+	max-width: 85%;
+	background-color: #008e66;
+	text-align: center;
+	padding: 3% 0;
+}
+main h1 {
+	font-size: 3em;
+	padding: 2% 0;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+}
+main h2 {
+	font-size: 2.3em;
+	padding: 2% 0;
+	font-family: 'Fjalla One', sans-serif;
+}
+main p {
+	font-size: 1.8em;
+	padding: 2% 3%;
+}
+main ul {
+	padding-bottom: 2%;
+}
+main li {
+	list-style-type: none;
+	font-size: 1.5em;
+}
+main p a {
+	text-decoration: none;
+	color: #00568c;
+}
+
+.smlht {
+	height:800px;
+}
+
+
+#form {
+	margin: 0 auto;
+}
+fieldset, input, select, textarea {
+	margin-bottom: 2%;
+}
+label {
+	display: block;
+	padding-top: 3%;
+}
+form #submit {
+	margin: 0 auto;
+	border: none;
+	display: block;
+	padding: 2%;
+	font-size: 1em;
+	border-radius: 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 4%;
+	font-family: 'Fjalla One', sans-serif;
+	border-top: solid thick black;
+	background-color: white;
+}
